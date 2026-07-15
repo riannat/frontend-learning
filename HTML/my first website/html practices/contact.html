@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT </title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>CONTACT PAGE</h1>
+        <hr>
+        <a href="index.html">Back to home page</a>
+
+        <h2>DETAILS AND SUMMARY ELEMENT</h2>
+        <details>
+            <summary>Click the arrow by the left to see more images </summary>
+            <details>
+                <summary>you just need to click it once more</summary>
+                <img src="../images/img5.avif" alt="beautiful summer Pictures" height="500px" width="400px">
+            </details>
+        </details>
+    
+        <p method="" action="/myserver">
+            <h2>Submit Correct Details</h2>
+            <p>
+                <label for="name"><strong>Full Name</strong></label>
+                <input type="text" placeholder="full name" required autocomplete="off" id="name" name="name">
+            </p>
+            <p>
+                <label for="pw"><b>Password</b></label>
+                <input type="password" minlength="3" maxlength="8" placeholder="password" required id="pw" name="password">
+            </p>
+            <p>
+                <label for="email"><strong>Official Email</strong> </label>
+                <input type="email" placeholder="email" required autocomplete="off" id="email" name="email">
+            </p>
+            <p>
+                <label for="num"><b>Select Years of Experience</b></label>
+                <input type="number" placeholder="years of experience" min="1" max="4" required id="num" name="num">
+            </p>
+            <p>
+                <label for="rating"><b>Rate Us</b></label>
+                <input type="range"id="num" min="0" max="50" step="10" value="20" id="rating" name="rating">
+            </p>
+             <p>
+                <label for=" CV"><strong>Submit CV:</strong></label>
+                <input type="file" placeholder=" submit CV" id="CV" name="CV">
+            </p>
+            <p>
+                <label for="Linkedin"><b>Linkedin Profile Link:</b></label>
+                <input type="url" placeholder="Linkedin" id="Linkedin"  required>
+            </p>
+            <p>
+                <label for="Mobile"><b>Mobile Contact</b></label>
+                <input type="tel" placeholder="Mobile" id="Mobile" name="Mobile">
+            </p>
+            <p>
+                <label for="DOB"> <b>Date of birth:</b></label>
+                <input type="date" placeholder=" DOB" id="DOB" name="DOB">
+            </p>
+            <p>
+            <h3>Pick fourite sport/sports</h3>
+            <label for="">Football</label>
+            <input type="checkbox" name="football" id="football">
+            <label for="tennis">Table tennis</label>
+            <input type="checkbox" name="Table tennis" id="tennis">
+            <label for="golf">Golf</label>
+            <input type="checkbox" name="golf" id="golf">
+            </p>
+
+            <h3>Highest Qualification</h3>
+            <label for="ond">OND</label>
+            <input type="radio"name="Qualification"value="ond"id="ond">
+            <label for="hnd">HND</label>
+            <input type="radio" name="Qualification"value="hnd" id="hnd">
+            <label for="b.sc">B.SC</label>
+            <input type="radio" name="Qualitification"value="b.sc"id="b.sc">
+            <p>
+            <label for="state">State of origin</label>
+            <select name="state" id="state">
+            <option value="">select state</option>
+            <option value="oyo">Oyo</option>
+            <option value="lagos">Lagos</option>
+            <option value="enugun">Enugun</option>
+            <option value="akure">Akure</option>
+            <option value="kwara">Kwara</option>
+            <option value="osun">Osun</option>
+            <option value="nasarawa">Nasarawa</option>
+            </select>
+            </p>
+            <div>
+                <form action="./myserver" method="post">
+                <p>
+                    <label for="user feedback">Drop a Comment/Enquiries</label>
+                    <textarea name="comment" cols="60" rows="3" id="user feedback" placeholder="comment"></textarea>
+                </p>
+                </form>
+            </div>
+            <p>
+                <button>Click to submit form</button>
+            </p>
+
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
