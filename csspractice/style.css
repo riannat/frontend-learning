@@ -1,0 +1,48 @@
+h1,h2{
+    background-color: #a67cdf;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: rgb(255,0,0);
+    font-size: 5rem;
+}
+p{
+    background-color: #fb8500;
+    color: rgb(33, 80, 151);
+    font-weight: 800;
+    line-height: 50px;
+    font-family: cursive;
+}
+form{
+    text-align: center;
+}
+li{
+    font-size:2rem;
+    color: darkblue;
+}
+
+#subhead{
+    text-align: center;
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 4em;
+}
+.special{
+    color: black ;
+}
+body{
+    background-color: deeppink; 
+}
+input[type="text"]{
+    margin-bottom: 2em;
+}
+input{
+    width: 15em;
+    margin-bottom: 2rem;
+}
+a:active{
+    color: #fb8500;
+    background-color: blue;
+    font-size: 2em;
+}
