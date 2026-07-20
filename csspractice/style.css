@@ -2,10 +2,9 @@ h1,h2{
     background-color: #a67cdf;
     color: white;
     text-align: center;
-    font-weight: 800;
-    text-decoration: underline;
+    font-weight: 400;
     text-decoration-color: rgb(255,0,0);
-    font-size: 5rem;
+    font-size: 2rem;
 }
 p{
     background-color: #fb8500;
@@ -45,4 +44,17 @@ a:active{
     color: #fb8500;
     background-color: blue;
     font-size: 2em;
+}
+#menu :hover{
+    color: brown;
+    font-size: 2.3em;
+}
+button[type="submit"]{
+     color: white;
+     background-color: brown;
+     text-decoration: underline;
+     padding: 1.3em;
+}
+#head:nth-last-of-type(2n){
+background-color: #fb8500; 
 }
