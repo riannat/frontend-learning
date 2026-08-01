@@ -1,0 +1,62 @@
+ body{
+    margin: 0;
+    margin-bottom: 800px;
+ }
+
+.header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+    background-color:blue ;
+    width: 150px;
+}
+
+.middle-section{
+    background-color: lightblue;
+    flex: 1;
+    margin-left: 70px;
+    max-width: 500px;
+}
+
+.right-section{
+    background-color: blue;
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+.sport2{
+    width:100%;
+}
+.sport1{
+    width: 100%;
+}
+.sport3{
+    width: 100%;
+}
+.sport4{
+    width: 100%;
+}
+.sport5{
+    width: 100%;
+}
+.sport6{
+    width: 100%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 17px;
+    row-gap: 25px;
+}

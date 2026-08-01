@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Registration Form">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="let's have users information">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:sitename" content="Registration Form">
+
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+ <header>
+
+ </header>
+ <main>
+<form action="./mysever" method="get">
+  <h1>User Registration Form</h1><br>
+  <h3>Personal Information</h3>
+  <p><label for="first name">First Name:</label>
+  <input type="text" placeholder="Enter your first name" name="first name" id="firstname"></p>
+
+  <p><label for=" lastname">Last Name:</label>
+  <input type="text" placeholder="Enter your last name" name="last name" id="lastname"></p>
+
+  <p><label for="DOB">Date of Birth:</label>
+  <input type="date" name="DOB" id="DOB"></p>
+
+  <p>Gender:</p>
+  <div>
+    <input type="radio" value="Male" name="gender" id="gender">
+  <label for=" gender">Male</label>
+  </div>
+
+  <div>
+    <input type="radio" value="Female"  name="gender" id="gender">
+  <label for=" gender">Female</label>
+  </div>
+  
+  <div>
+    <input type="radio" value="Other"  name="gender" id="gender">
+  <label for=" gender">Other</label>
+  </div>
+
+   <h3>Contact Information</h3>
+  <p><label for="email">Email Address:</label>
+  <input type="email" placeholder="example@example.com" name="email" id="email"></p>
+  <p><label for="tel">Phone Number:</label>
+  <input type="tel" placeholder="11-digit number" name="tel" id="tel"></p>
+
+  <div>Address:</div>
+  <p><label for="address"></label>
+  <textarea name="Address" cols="120" placeholder="Enter your Address" rows="8" id="address"></textarea></p>
+
+   <h3>Account Setup</h3>
+  <p><label for="username">Username:</label>
+  <input type="text" name="username" id="username"></p>
+  <p><label for="pw">Password:</label>
+  <input type="password" name="password" id="pw"></p>
+  <p>Comfirm Password:</p>
+  <input type="password" name="password" id="pw">
+
+   <h3>Preferences</h3>
+    <label for="lang">Preferred Language:</label>
+    <select name="language" id="lang">
+    <option value="">-Select a language</option>
+    <option value="english">English</option>
+    <option value="hausa">Hausa</option>
+    <option value="igbo">Igbo</option>
+    </select>
+
+    <div>Subscribe to:</div>
+    <div>
+    <input type="checkbox"  name="newsletter" id="newsletter">
+    <label for="newsletter">Newsletter</label>
+    </div>
+
+    <div>
+    <input type="checkbox"  name="special offers" id="special offers">
+    <label for="special offers">Special Offers</label>
+    </div>
+  
+    <div>
+    <input type="checkbox" name="product updates" id="product updates">
+    <label for="product updates">Product Updates</label>
+    </div>
+
+  <h3>Upload Documents</h3>
+  <div>Upload Resume (PDF, max 2mb):</div> 
+  <input type="file" name="file" id="file">
+  <label for="file"></label>
+
+  <h3>Terms & Conditions</h3>
+  <input type="checkbox" name="agreement" id="agreement">
+  <label for="agreement">I agree to terms and Conditions</label><br>
+  <button>Submit</button>
+  <button>Reset</button>
+
+</form>
+ </main>
+ <footer>
+
+ </footer>
+
+</html>
