@@ -1,6 +1,9 @@
  body{
     margin: 0;
     margin-bottom: 800px;
+    padding-top: 85px;
+    padding-left: 90px;
+    background-color: rgb(226, 214, 214);
  }
 
 .header{
@@ -8,26 +11,107 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(207, 196, 196);
 }
 
 .left-section{
-    background-color:blue ;
     width: 150px;
+    display:flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hamburger-menu{
+    height: 40px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.youtube-logo{
+    height: 65px;
+}
+
+.record-icon{
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.search-icon{
+    height: 45px;
+    width: 40px;
+    margin-right: 8px;
+} 
+
+.search-bar{
+    flex: 1;
+    height: 50px;
+    padding-left: 12px;
+    font-size: 17px;
+    border: 2px solid rgb(223, 209, 209);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .middle-section{
-    background-color: lightblue;
+    display: flex;
+    align-items: center;
     flex: 1;
+    flex-direction: row;
     margin-left: 70px;
     max-width: 500px;
 }
 
 .right-section{
-    background-color: blue;
     width: 250px;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification-icon{
+    width: 30px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 65px;
+    background-color: white;
+    width: 72px;
+    z-index: 200px;
+    cursor: pointer;
+}
+.sidebar-link{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.sidebar:hover{
+    background-color: rgb(235, 223, 223);
+}
+.sidebar-link img{
+    height: 30px;
+}
+
+.sidebar-link div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
 
 .sport2{
     width:100%;
