@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns: 100px 100px; margin-bottom: 10px;">
+        <div style="background-color: pink;">div1</div>
+        <div style="background-color: blue;">div2 <p>This is a paragraph</p></div>
+    </div>
+
+     <div style="display: grid; grid-template-columns: 100px 1fr; margin-bottom: 10px;">
+        <div style="background-color: pink;">div1</div>
+        <div style="background-color: blue;">div2</div>
+    </div>
+     <div style="display: grid; grid-template-columns: 100px 200px 150px; margin-bottom: 10px;">
+        <div style="background-color: pink;">div1</div>
+        <div style="background-color: blue;">div2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-bottom: 10px;">
+        <div style="background-color: pink;">div1</div>
+        <div style="background-color: blue;">div2</div> 
+        <div style="background-color: yellow;">div2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 20px">
+        <div style="background-color: pink; height: 200px;">div1</div>
+        <div style="background-color: blue; height: 200px">div2</div> 
+        <div style="background-color: yellow; height: 200px">div2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 60px; column-gap: 20px">
+        <div style="background-color:blue; height: 200px;">div1</div>
+        <div style="background-color:yellow; height: 200px">div2</div> 
+        <div style="background-color:pink; height: 200px">div2</div>
+    </div>
+
+</body>
+</html>

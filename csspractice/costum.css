@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-position: contain;
+    background: url(../csspractice/images/img3.avif)
+}
+
+#transform{
+    width: 100%;
+    height: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 5em;
+}
+.transform{
+    width: 30em;
+    height: 4em;
+    margin-bottom: 2em;
+    border: 1px solid black;
+}
+.trans:nth-of-type(1){
+    background-color: orange;
+    transform: rotate(25deg);
+}
+.trans:nth-of-type(2){
+    background-color: yellow;
+    transform: scale(1.2);
+}
+.trans:nth-of-type(3){
+    background-color: green;
+    transform: skew(32deg);
+}
+.trans:nth-of-type(4){
+    background-color: rgb(255, 0, 149);
+    transform: translateY(1opx);
+}
+h1{
+    text-align: center;
+}
