@@ -2,7 +2,121 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#logo{
-    font-size: 20px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+    width: 350px;
+
+}
+.section p{
+    height: 60px;
+    width: 40px;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+
+}
+.section img{
+    width: 40;
+    height: 60;
+    margin-bottom: 20px;
+}
+.button-1{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(89, 89, 253);
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(59, 56, 56);
+    margin: 5px 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    color: rgb(231, 220, 220);
+    font-size: 13px;
+    background-color: black;
+    border-radius: 15px;
+    border: 3px solid white;
+    padding: 15px;
+}
+.form input::placeholder{
+    color: lightgray;
+}
+
+.a{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    margin-top: 10px;
+}
+
+.login{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: none;
+    background-color: rgb(89, 89, 253);
+    border-radius: 15px;
+    font-size: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-2 button:first-child{
+    font-size: 15px;
+    background-color: none;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+.button-2 span{
+    color: red;
+    font-weight: 500;
+    font-size: 15px;
+}
+.button-2 button:last-child{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(25, 25, 75);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(57, 57, 253);
+    border-radius: 15px;
+}
+
+.meta{
+margin-top: 2px;
+}
+.meta-logo{
+    width: 120x;
 }

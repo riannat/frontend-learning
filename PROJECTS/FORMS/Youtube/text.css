@@ -144,3 +144,21 @@ p{
     column-gap: 17px;
     row-gap: 25px;
 }
+@media(max-width:600px) {
+.container-grid{
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media(min-width:751px) and (max-width:999px){
+.container-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+@media(max-width:1000px) {
+.container-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
