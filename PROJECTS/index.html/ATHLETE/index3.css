@@ -35,6 +35,13 @@
 .youtube-logo{
     height: 65px;
 }
+.tv{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    color: brown;
+    
+
+}
 
 .record-icon{
     height: 45px;
@@ -75,12 +82,24 @@
 
 .right-section{
     width: 250px;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .notification-icon{
+    width: 30px;
+}
+.setting{
+    width: 30px;
+}
+.favourite{
+    width: 30px;
+}
+.live{
+    width: 30px;
+}
+.profile{
     width: 30px;
 }
 .sidebar{
